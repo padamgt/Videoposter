@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ReelKatha",
+    "slug": "reelkatha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#17132E",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#17132E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bibekjha.reelkatha"
+    },
+    "android": {
+      "package": "com.bibekjha.reelkatha",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#17132E"
+      }
+    }
+  }
+}
